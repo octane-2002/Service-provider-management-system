@@ -1,0 +1,61 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Table styling */
+table {
+    color:#333;
+    border-color: black;
+    width: 80%; /* Set the width of the table */
+    margin: 0 auto; /* Center the table on the page */
+    border-collapse: collapse; /* Remove the cell borders */
+}
+
+th, td {
+    padding: 8px; /* Add padding to the cells */
+    text-align: center; /* Align the text to the left */
+    border-bottom: 1px solid rgb(103, 57, 155); /* Add a bottom border to the cells */
+}
+
+th {
+    background-color: #0a0101; /* Add a background color to the table headers */
+    color: wheat;
+}
+
+/* Add hover effect to the table rows */
+tbody tr:hover {
+    background-color: #0adbf7;
+}
+
+/* Add a hover effect to the table headers */
+
+/* Back button styling */
+a {
+    color: #333;
+    text-decoration: none;
+    padding: 14px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #f2f2f2;
+}
+#back-button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
